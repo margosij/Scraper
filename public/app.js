@@ -21,7 +21,7 @@ $.getJSON("/articles", function(data) {
     })
       // With that done, add the note information to the page
       .then(function(data) {
-        console.log(data);
+        // console.log(data);
         // The title of the article
         $("#notes").append("<h2>" + data.title + "</h2>");
         // An input to enter a new title
